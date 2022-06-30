@@ -1,0 +1,236 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+body{
+    background:white;
+}
+header{
+    margin-top: -10px;
+    background: wheat;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+footer{
+    background: wheat;
+    height: 150%;
+}
+.navigation ul {
+    list-style: none;
+    float: right;
+    margin-right: 10%;
+    margin-top: 2%;
+}
+.navigation ul li {
+    float: left;
+
+}
+.navigation ul li a {
+
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    color: #5f6163;
+
+}
+nav h1{
+    display: inline-block;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+ul {
+    list-style: none;
+}
+.navigation a:hover{
+    color: saddlebrown;
+}
+header{
+    position: static;
+}
+.cur{
+    background-color: white;
+    border-radius: 30%;
+}
+#aboutme{
+    text-align: center;
+}
+#aboutme h1{
+    margin-left: 5% ;
+}
+.what{
+    margin-left: 25% ;
+}
+.info{
+    margin-left: 25% ;
+    width: 50%;
+    font-family: serif;
+    font-size: 16px;
+    color: black;
+}
+#slika{
+    width: 25%;
+    margin-left: 37% ;
+    border-radius: 5%;
+}
+#footer{
+    display: inline-block;
+    width: 109%;
+    margin-bottom: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+#footer p{
+    margin-left: 10%;
+    font-size: 18px;
+    display: inline-block;
+    margin-top: 3%;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fa-facebook {
+    background: white;
+    color: grey;
+    border-radius: 20%;
+}
+.fa-instagram {
+    background: white;
+    color: grey;
+    border-radius: 20%;
+}
+#slika2{
+    width: 30%;
+    margin-left: 35% ;
+    border-radius: 5%;
+}
+
+html{    background:url("http://www.philippefercha.com/img/home-page.jpg") no-repeat;
+    background-size: cover;
+    height:100%;
+}
+*::-webkit-input-placeholder {
+    color:#000;
+}
+#feedback-page{
+    text-align:center;
+}
+
+#form-main{
+    width:100%;
+    float:left;
+    padding-top:0;
+}
+
+#form-div {
+    background: #fff;
+    padding-left:35px;
+    padding-right:35px;
+    padding-top:35px;
+    padding-bottom:35px;
+    width: 450px;
+    float: left;
+    left: 50%;
+    margin-top:30px;
+    margin-left: 32%;
+}
+
+.feedback-input {
+    color:#000;
+    font-family: Montserrat, Arial, sans-serif;
+    font-weight:300;
+    font-size: 14px;
+    border-radius: 0;
+    line-height: 22px;
+    background-color: #fff;
+    padding: 13px 13px 13px 13px;
+    margin-bottom: 10px;
+    width:100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 0px solid transparent;
+    border-bottom: 1px solid #000;
+}
+
+.feedback-input:focus{
+    background: #fff;
+
+    color: #000;
+    outline: none;
+    padding: 13px 13px 13px 13px;
+}
+
+.focused{
+    color:#000;
+    border:#30aed6 solid 2px;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    line-height: 150%;
+    resize:vertical;
+}
+
+input:hover, textarea:hover,
+input:focus, textarea:focus {
+    background-color:white;
+}
+
+#button-blue{
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    float:left;
+    width: 100%;
+    border: 0px solid transparent;
+    cursor:pointer;
+    background-color: #000;
+    color:white;
+    font-size:18px;
+    padding-top:22px;
+    padding-bottom:22px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    margin-top:-4px;
+    font-weight:300;
+}
+
+#button-blue:hover{
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000;
+}
+
+.submit:hover {
+    color: #3498db;
+}
+
+.ease {
+    width: 0px;
+    height: 74px;
+    background-color: #fbfbfb;
+    -webkit-transition: .3s ease;
+    -moz-transition: .3s ease;
+    -o-transition: .3s ease;
+    -ms-transition: .3s ease;
+    transition: .3s ease;
+}
+
+.submit:hover .ease{
+    width:100%;
+    background-color:white;
+}
+
+@media only screen and (max-width: 580px) {
+    #form-div{
+        left: 3%;
+        margin-right: 3%;
+        width: 88%;
+        margin-left: 0;
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+}
